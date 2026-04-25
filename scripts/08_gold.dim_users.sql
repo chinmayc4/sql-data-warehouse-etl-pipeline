@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-File Name   : gold_dim_users.sql
+File Name   : gold.dim_users.sql
 Project     : DataWarehouse - Gold Layer (Dimension Table)
 Author      : Chinmay Pisu
 
