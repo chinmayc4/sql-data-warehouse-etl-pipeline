@@ -2,7 +2,6 @@
 ===============================================================================
 File Name   : 01_create_datawarehouse.sql
 Author      : Chinmay Pisu
-Created Date: 2026-04-25
 Description : 
     This script creates the DataWarehouse database and initializes 
     Bronze, Silver, and Gold schemas following Medallion Architecture.
