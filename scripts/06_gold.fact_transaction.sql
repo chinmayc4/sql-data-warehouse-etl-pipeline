@@ -56,7 +56,7 @@ Usage:
 ===============================================================================
 */
 
-CREATE VIEW gold.fact_transactions
+CREATE OR ALTER VIEW gold.fact_transactions
 AS
 SELECT
     t.txn_id,
