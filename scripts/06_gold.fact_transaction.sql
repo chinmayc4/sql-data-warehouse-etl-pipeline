@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-File Name   : gold_fact_transactions.sql
+File Name   : gold.fact_transactions.sql
 Project     : DataWarehouse - Gold Layer (Fact Table)
 Author      : Chinmay Pisu
 
