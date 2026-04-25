@@ -47,7 +47,7 @@ Usage:
 ===============================================================================
 */
 
-CREATE VIEW gold.user_activity_monthly
+CREATE OR ALTER VIEW gold.user_activity_monthly
 AS
 SELECT
     DATEFROMPARTS(YEAR(txn_date), MONTH(txn_date), 1) AS activity_month,
