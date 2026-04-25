@@ -9,11 +9,11 @@ Description :
     data from source system extracts.
 
     Data Sources:
-        - CRM सिस्टम:
+        - CRM:
             users.csv
             user_activity.csv
 
-        - ERP सिस्टम:
+        - ERP:
             fees.csv
             fraud_signals.csv
             merchants.csv
