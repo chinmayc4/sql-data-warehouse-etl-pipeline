@@ -22,8 +22,7 @@ Gold Layer    → Business-ready data models for analytics
 
 ## 🔄 Data Pipeline Flow
 
-<img width="1719" height="915" alt="ChatGPT Image Apr 26, 2026, 01_52_55 AM" src="https://github.com/user-attachments/assets/d15b939d-58b6-480a-b2ee-665a75760b15" />
-
+<img width="1719" height="915" alt="End_To_End_Pipeline" src="https://github.com/user-attachments/assets/867605f7-0194-4de8-a5ab-3533df65f3e8" />
 
 1. **Data Sources**
 
@@ -57,7 +56,8 @@ Gold Layer    → Business-ready data models for analytics
 
 ## 📊 Data Model
 
-<img width="1536" height="1024" alt="ChatGPT Image Apr 26, 2026, 01_54_49 AM" src="https://github.com/user-attachments/assets/30b6635a-8c01-4eba-9ebe-ca96beb5b756" />
+<img width="1536" height="1024" alt="Schema_Overview" src="https://github.com/user-attachments/assets/cbf64f95-3b9c-4fe9-ba26-368a49d8c7f9" />
+
 
 ### 🔹 Fact Tables
 
