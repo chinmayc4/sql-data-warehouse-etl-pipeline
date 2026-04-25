@@ -74,21 +74,12 @@ prev_users AS (
 )
 SELECT
     m.month,
-
     COUNT(DISTINCT p.user_id) AS previous_users,
-
     COUNT(DISTINCT m.user_id) AS current_users,
-
-    COUNT(DISTINCT p.user_id) 
-        - COUNT(DISTINCT m.user_id) AS churned_users,
-
-    (COUNT(DISTINCT p.user_id) 
-        - COUNT(DISTINCT m.user_id)) * 1.0
-        / NULLIF(COUNT(DISTINCT p.user_id), 0) AS churn_rate
-
+    COUNT(DISTINCT p.user_id) - COUNT(DISTINCT m.user_id) AS churned_users,
+    (COUNT(DISTINCT p.user_id) - COUNT(DISTINCT m.user_id)) * 1.0 / NULLIF(COUNT(DISTINCT p.user_id), 0) AS churn_rate
 FROM prev_users p
 LEFT JOIN monthly_users m
     ON p.user_id = m.user_id
     AND p.month = m.month
-
 GROUP BY m.month;
