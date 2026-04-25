@@ -86,13 +86,13 @@ Gold Layer    → Business-ready data models for analytics
 
 ## ⚙️ Key Features
 
-* ✅ **Medallion Architecture (Bronze–Silver–Gold)**
-* ✅ **Idempotent SQL Scripts** (safe re-runs)
-* ✅ **Transaction-safe execution**
-* ✅ **Data type standardization (NVARCHAR → DECIMAL, INT, DATETIME2)**
-* ✅ **Audit & lineage tracking (`dwh_create_time`)**
-* ✅ **Modular SQL structure for scalability**
-* ✅ **Production-style schema design**
+*  **Medallion Architecture (Bronze–Silver–Gold)**
+*  **Idempotent SQL Scripts** (safe re-runs)
+*  **Transaction-safe execution**
+*  **Data type standardization (NVARCHAR → DECIMAL, INT, DATETIME2)**
+*  **Audit & lineage tracking (`dwh_create_time`)**
+*  **Modular SQL structure for scalability**
+*  **Production-style schema design**
 
 ---
 
@@ -206,11 +206,11 @@ Gold Layer    → Business-ready data models for analytics
 
 ## 🔮 Future Improvements
 
-* ⏳ Add **incremental loading (MERGE / CDC)**
-* ⚙️ Integrate **Azure Data Factory / Airflow for orchestration**
-* 🧪 Implement **data quality tests**
-* 📊 Build **Power BI dashboards**
-* 🚀 Add **CI/CD pipeline for deployment**
+*  Add **incremental loading (MERGE / CDC)**
+*  Integrate **Azure Data Factory / Airflow for orchestration**
+*  Implement **data quality tests**
+*  Build **Power BI dashboards**
+*  Add **CI/CD pipeline for deployment**
 
 ---
 
