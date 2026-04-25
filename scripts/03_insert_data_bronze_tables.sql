@@ -55,10 +55,10 @@ Version History:
     v1.0 | 2026-04-25 | Initial data load script
 ===============================================================================
 */
-
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
 	DECLARE @start_time DATETIME, @end_time DATETIME; 
+	SET @start_time = GETDATE();
 	BEGIN TRY
 		PRINT('============================================================')
 		PRINT('                   Loading Bronze Layer                     ')
@@ -225,4 +225,6 @@ BEGIN
 		PRINT 'ERROR MESSAGE' + CAST(ERROR_STATE() AS NVARCHAR);
 		PRINT('------------------------------------------------')
 	END CATCH
+	SET @end_time = GETDATE();
+	PRINT '>> Loading Duration ETL: ' + CAST(DATEDIFF(second,@start_time,@end_time) AS NVARCHAR) + ' seconds';
 END
