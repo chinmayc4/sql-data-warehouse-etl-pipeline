@@ -31,9 +31,11 @@ sql-data-warehouse/
 ├── bronze/
 │   ├── bronze_tables.sql
 │   └── load_bronze.sql
+
 ├── silver/
 │   ├── silver_tables.sql
 │   └── load_silver.sql
+
 ├── datasets/
 │   ├── CRM/
 │   └── ERP/
