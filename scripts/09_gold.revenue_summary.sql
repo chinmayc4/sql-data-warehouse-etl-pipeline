@@ -60,7 +60,7 @@ Usage:
 ===============================================================================
 */
 
-CREATE VIEW gold.revenue_summary
+CREATE OR ALTER VIEW gold.revenue_summary
 AS
 SELECT
     CAST(txn_date AS DATE) AS txn_date,
