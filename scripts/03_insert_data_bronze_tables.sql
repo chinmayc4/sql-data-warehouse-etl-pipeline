@@ -2,8 +2,7 @@
 ===============================================================================
 File Name   : bronze_layer_data_load.sql
 Project     : DataWarehouse - Bronze Layer Data Ingestion
-Author      : <Your Name>
-Created On  : 2026-04-25
+Author      : Chinmay Pisu
 Description : 
     This script performs full-load data ingestion into Bronze layer tables 
     from flat files (CSV). It truncates existing data and reloads fresh 
