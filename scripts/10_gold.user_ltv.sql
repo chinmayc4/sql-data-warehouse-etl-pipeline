@@ -60,7 +60,7 @@ Usage:
 ===============================================================================
 */
 
-CREATE VIEW gold.user_ltv
+CREATE OR ALTER VIEW gold.user_ltv
 AS
 SELECT
     f.user_id,
