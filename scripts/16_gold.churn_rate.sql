@@ -56,7 +56,7 @@ Usage:
 ===============================================================================
 */
 
-CREATE VIEW gold.churn_rate
+CREATE OR ALTER VIEW gold.churn_rate
 AS
 WITH monthly_users AS (
     SELECT
