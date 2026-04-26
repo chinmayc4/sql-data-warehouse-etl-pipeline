@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-File Name   : 01_create_datawarehouse.sql
+File Name   : datawarehouse.create_schema.sql
 Author      : Chinmay Pisu
 Description : 
     This script creates the DataWarehouse database and initializes 
