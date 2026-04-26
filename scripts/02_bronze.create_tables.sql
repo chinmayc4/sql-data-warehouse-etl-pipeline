@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-File Name   : bronze_layer_tables.sql
+File Name   : bronze.create_tables.sql
 Project     : DataWarehouse - Bronze Layer Setup
 Author      : Chinmay Pisu
 
